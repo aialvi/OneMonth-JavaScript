@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Which Marvel Character are you and your profession!</title>
+
+		<link rel="stylesheet" href="css/styles.css">
+
+		<script>
+
+
+			var characters= ['CAPTAIN MARVEL' , 'THANOS' , 'BLACK PANTHER' , 'SPIDER-MAN' , 'IRON MAN' , 'CAPTAIN AMERICA' , 'BLACK WIDOW' , 'HULK' , 'HAWKEYE' , 'THOR'];
+			var profession= ['ambulance driver',  "bus mechanic", "barber", "dishwasher", 'rickshaw puller', 'librarian', 'office clerk', 'purchasing manager',
+		'radiation therapist', 'taxi driver', 'writer']
+			
+			randomNumber = Math.floor(Math.random()*characters.length);
+			randomNumber1 = Math.floor(Math.random()*characters.length);
+
+			/* check name */
+
+			var name = prompt("Hello, who are you?");
+			
+
+
+			/* check car */
+			
+			
+			{
+			
+			document.write("<h4>" + " Hey " + name + "! <br> Your actual identity is " + characters[randomNumber] + " and your profession is " + profession[randomNumber1] +"!<br> Thanks for saving the world! &hearts;</h4>");
+			}
+			
+			
+
+			
+		</script>
+
+	</head>
+
+	<body>
+
+	</body>
+
+</html>

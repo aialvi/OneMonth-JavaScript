@@ -1,0 +1,25 @@
+
+			/* Basic CSS comment */
+			body {
+				background: #efefef;
+				width: 960px;
+				margin: 0 auto;
+				font-size: 30px;
+				color: rgb(44, 39, 39);
+			}
+
+			h1 {
+				font-size: 80px;
+				color: #333	;
+                text-align: center;
+			}
+            img {
+                width: 40%;
+                margin: 0 auto;
+                
+            }
+
+            h4 {
+				color: rgb(44, 39, 39);
+                
+			}
