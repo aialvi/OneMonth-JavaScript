@@ -10,9 +10,14 @@
 		<a href="#">Hey JavaScript, how ya feeling?</a>
 		<script type="text/javascript">
 
-			var h1 = document.querySelector("h1");
-			h1.innerHTML = "I'm alive!";
-			console.log(h1);
+			var a = document.querySelector("a");
+			a.addEventListener('click',function(){
+
+				var h1 = document.querySelector("h1");
+				h1.innerHTML = "I'm alive!";
+				console.log(h1);
+
+			});
 
 		</script>
 	</body>
