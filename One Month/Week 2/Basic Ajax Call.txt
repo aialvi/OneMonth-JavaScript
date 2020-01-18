@@ -1,0 +1,13 @@
+var url = "THE_URL_TO_CALL_GOES_HERE";
+
+// AJAX Request
+var GiphyAJAXCall = new XMLHttpRequest();
+GiphyAJAXCall.open( 'GET', url );
+GiphyAJAXCall.send();
+
+
+GiphyAJAXCall.addEventListener('load', function( data ) {
+
+// your callback events go here 
+
+});
